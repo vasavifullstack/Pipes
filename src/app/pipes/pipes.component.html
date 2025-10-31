@@ -1,0 +1,28 @@
+{{myname | uppercase}}
+<br>
+{{myname}}
+<br>
+
+
+<input type="text" [value]="myname | uppercase">
+<br>
+<br>
+{{date}}
+<br>
+<br>
+{{date | date}}
+
+<h2>custom pipes</h2>
+
+{{myname  | custom}}
+
+{{"angular" | custom}}
+{{subject  | custom}}
+<p>
+    {{"Pipes in Angular are a mechanism for transforming data 
+    directly within your templates. They take an input value, 
+    process it, and return a transformed output,
+     making your templates more readable and 
+     maintaining a clean separation of concerns" 
+    | custom}}
+</p>
