@@ -1,0 +1,21 @@
+<!-- <p appDirective>directive-demo</p>
+
+
+<p directiveColor="'green'"appDirective>custom Directive</p>
+
+<p background-color="'red'"appDirective>hii vasavi</p> -->
+
+
+<!-- default pink (from directive constructor) -->
+<p appDirective>directive-demo</p>
+
+<!-- custom color from Input property -->
+<p appDirective [directiveColor]="'green'">custom Directive</p>
+
+<!-- change color on hover -->
+<p appDirective [backgroundColor]="'red'">hii vasavi</p>
+
+
+<!-- 1. you can apply directive to the any html element like p,span,div,button etc.
+2. YOu can apply directive any where in the application.
+3. Input in directice which is used to change the style dynamically and it will take the value  -->
